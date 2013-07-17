@@ -13,7 +13,7 @@ function valida(){
   		sEmail.focus();
   		return false;
   	}
-  	//validar email(verificao de endereco eletronico)
+    
   	parte1 = sEmail.value.indexOf("@");
   	parte2 = sEmail.value.length;
   	if (!(parte1 >= 3 && parte2 >= 6)) {
